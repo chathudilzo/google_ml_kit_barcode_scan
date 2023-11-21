@@ -64,7 +64,7 @@ Future<void> analizeImage(String option)async{
 void handleUrlBarcode(BarcodeUrl barcodeUrl)async{
   final Uri url=Uri.parse(barcodeUrl.url!);
 
-  if(await canLaunchUrl(url)){
+  if(url!=''){
     await launchUrl(url);
     
   }else{
