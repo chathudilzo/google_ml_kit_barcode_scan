@@ -10,16 +10,21 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.black,
       appBar: AppBar(),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(8.0),
           child: Column(
             children: [
+              Center(
+                child: Text('Scan Your Code',style: TextStyle(color: Colors.white,fontSize: 20,fontWeight: FontWeight.bold),),
+              ),
               Container(
                 width: 400,
                 height: 400,
                 decoration: BoxDecoration(
+                  image: DecorationImage(image: AssetImage('assets/barcode.jpeg'),fit: BoxFit.cover),
                   borderRadius: BorderRadius.circular(10),
                   border: Border.all(color: Colors.blue,width: 3),
                   color: Color.fromARGB(255, 32, 32, 32)
