@@ -13,6 +13,8 @@ This is a Flutter app that utilizes the Google ML Kit for barcode scanning. The 
 - Custom handling for specific barcode types.
 - Simple and intuitive user interface.
 
-Dependencies
-google_ml_kit: Google ML Kit for barcode scanning.
-image_picker: A Flutter plugin for picking images from the image library or camera.
+##Dependencies
+
+- google_ml_kit: Google ML Kit for barcode scanning.
+
+- image_picker: A Flutter plugin for picking images from the image library or camera.
