@@ -1,16 +1,18 @@
 # google_ml_kit_barcode_scan
 
-A new Flutter project.
+![image](https://github.com/chathudilzo/google_ml_kit_barcode_scan/assets/93638679/0865e07e-4f9c-4fc4-865e-45aebb7faf8a)
 
-## Getting Started
+## Description
 
-This project is a starting point for a Flutter application.
+This is a Flutter app that utilizes the Google ML Kit for barcode scanning. The app allows users to scan barcodes using either the camera or by selecting an image from the gallery. It supports various barcode types, including URLs, WiFi networks, and more.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Scan barcodes using the camera or gallery images.
+- Supports different barcode types such as URLs, WiFi networks, etc.
+- Custom handling for specific barcode types.
+- Simple and intuitive user interface.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Dependencies
+google_ml_kit: Google ML Kit for barcode scanning.
+image_picker: A Flutter plugin for picking images from the image library or camera.
